@@ -2,7 +2,7 @@
 title: KDT
 
 description: 数据结构
-cover: https://github.com/BronyaZaychikSeeleVollerei/BronyaZaychikSeeleVollerei.github.io/blob/main/public/images/logo/2903414-20250816211619408-739861726.png
+cover: https://raw.githubusercontent.com/BronyaZaychikSeeleVollerei/BronyaZaychikSeeleVollerei.github.io/refs/heads/main/public/images/logo/2903414-20250816211619408-739861726.png
 top: true  
 share: true  
 delete: false  
