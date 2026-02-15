@@ -3,9 +3,9 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "Bronya Zaychik",
     // 站点描述
-    description: "Hello World",
+    description: "Bronya Zaychik Love SeeleVollerei",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
