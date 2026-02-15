@@ -9,7 +9,6 @@ export const themeConfig = {
     // 站点logo
     logo: "/images/logo/109601466.jpg",
     // 站点地址
-    site: "https://blog.imsyy.top",
     // 语言
     lang: "zh-CN",
     // 作者
