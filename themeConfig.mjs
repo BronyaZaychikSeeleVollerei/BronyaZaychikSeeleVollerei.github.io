@@ -128,7 +128,7 @@ export const themeConfig = {
       // 封面布局方式: left | right | both
       coverLayout: 'both',
       // 默认封面(随机展示)
-      defaultCover: [
+      cover: [
         'https://raw.githubusercontent.com/BronyaZaychikSeeleVollerei/BronyaZaychikSeeleVollerei.github.io/refs/heads/main/public/images/logo/2903414-20250816211619408-739861726.png',
       ]
     }
