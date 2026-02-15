@@ -7,7 +7,7 @@ export const themeConfig = {
     // 站点描述
     description: "Bronya Zaychik Love SeeleVollerei",
     // 站点logo
-    logo: "/images/logo/logo.webp",
+    logo: "/images/logo/109601466.jpg",
     // 站点地址
     site: "https://blog.imsyy.top",
     // 语言
@@ -15,7 +15,7 @@ export const themeConfig = {
     // 作者
     author: {
       name: "Admin",
-      cover: "/images/logo/logo.webp",
+      cover: "/images/logo/109601466.jpg",
       email: "114514@gmail.com",
       link: "https://www.imsyy.top",
     },
@@ -148,43 +148,20 @@ export const themeConfig = {
       name: "博客",
       list: [
         {
-          icon: "/images/logo/logo.webp",
+          icon: "/images/logo/109601466.jpg",
           name: "主站",
           url: "/",
         },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
       ],
     },
-    {
-      name: "服务",
-      list: [
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "站点监测",
-          url: "https://status.imsyy.top/",
-        },
       ],
     },
     {
       name: "项目",
       list: [
         {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
+          icon: "/images/logo/109601466.jpg",
+          name: "Bronya Zaychik",
           url: "https://github.com/imsyy/vitepress-theme-curve",
         },
         {
@@ -198,7 +175,7 @@ export const themeConfig = {
           url: "https://github.com/imsyy/SPlayer",
         },
         {
-          icon: "/images/logo/logo.webp",
+          icon: "/images/logo/109601466.jpg",
           name: "Home",
           url: "https://github.com/imsyy/home",
         },
@@ -299,19 +276,6 @@ export const themeConfig = {
           { text: "版权协议", link: "/pages/cc" },
         ],
       },
-      {
-        text: "服务",
-        items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.24811213.xyz/rss.xml", newTab: true },
-          {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
-            newTab: true,
-          },
-        ],
-      },
     ],
   },
   // 评论
@@ -368,15 +332,6 @@ export const themeConfig = {
   },
   // 友链
   friends: {
-    // 友链朋友圈
-    circleOfFriends: "",
-    // 动态友链
-    dynamicLink: {
-      server: "",
-      app_token: "",
-      table_id: "",
-    },
-  },
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
@@ -396,14 +351,6 @@ export const themeConfig = {
     enable: false,
     appId: "",
     apiKey: "",
-  },
-  // 打赏
-  rewardData: {
-    enable: true,
-    // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
-    // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
   },
   // 图片灯箱
   fancybox: {
