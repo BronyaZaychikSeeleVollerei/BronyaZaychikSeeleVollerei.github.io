@@ -329,7 +329,6 @@ export const themeConfig = {
     },
   },
   // 友链
-  friends: {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
