@@ -1,4 +1,13 @@
-# KDT
+---  
+title: KDT
+
+description: 数据结构
+cover: https://github.com/BronyaZaychikSeeleVollerei/BronyaZaychikSeeleVollerei.github.io/blob/main/public/images/logo/2903414-20250816211619408-739861726.png
+top: true  
+share: true  
+delete: false  
+
+---  
 开个坑
 
 不难很矢
