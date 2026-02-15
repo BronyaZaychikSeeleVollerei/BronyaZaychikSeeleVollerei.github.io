@@ -13,16 +13,12 @@ export const themeConfig = {
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "yabnto",
       cover: "/images/logo/109601466.jpg",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "45566163@qq.com",
+      link: "https://www.BronyaZaychikSeeleVollerei.github.io",
     },
   },
-  // 备案信息
-  icp: "萌ICP备114514号",
-  // 建站日期
-  since: "2020-07-28",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -31,17 +27,7 @@ export const themeConfig = {
     // https://vitepress.dev/zh/reference/site-config#head
     header: [
       // favicon
-      ["link", { rel: "icon", href: "/favicon.ico" }],
-      // RSS
-      [
-        "link",
-        {
-          rel: "alternate",
-          type: "application/rss+xml",
-          title: "RSS",
-          href: "https://blog.24811213.xyz/rss.xml",
-        },
-      ],
+      ["link", { rel: "icon", href: "/109601466.jpg" }],
       // 预载 CDN
       [
         "link",
@@ -117,29 +103,6 @@ export const themeConfig = {
         { text: "全部标签", link: "/pages/tags", icon: "hashtag" },
       ],
     },
-    {
-      text: "专栏",
-      items: [
-        { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
-        { text: "我的项目", link: "/pages/project", icon: "code" },
-        { text: "效率工具", link: "/pages/tools", icon: "tools" },
-      ],
-    },
-    {
-      text: "友链",
-      items: [
-        { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
-        { text: "友情链接", link: "/pages/link", icon: "people" },
-      ],
-    },
-    {
-      text: "我的",
-      items: [
-        { text: "畅所欲言", link: "/pages/message", icon: "chat" },
-        { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
-        { text: "关于本站", link: "/pages/about", icon: "contacts" },
-      ],
-    },
   ],
   // 导航栏菜单 - 左侧
   navMore: [
@@ -150,41 +113,6 @@ export const themeConfig = {
           icon: "/images/logo/109601466.jpg",
           name: "主站",
           url: "/",
-        },
-      ],
-    },
-    {
-      name: "项目",
-      list: [
-        {
-          icon: "/images/logo/109601466.jpg",
-          name: "Bronya Zaychik",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "/images/logo/109601466.jpg",
-          name: "Home",
-          url: "https://github.com/imsyy/home",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "site-status",
-          url: "https://github.com/imsyy/site-status",
         },
       ],
     },
@@ -212,92 +140,17 @@ export const themeConfig = {
     // 社交链接（请确保为偶数个）
     social: [
       {
-        icon: "email",
-        link: "mailto:one@imsyy.top",
-      },
-      {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
-      },
-      {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
-      },
-      {
-        icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://www.github.com/BronyaZaychikSeeleVollerei/",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
-      },
-      {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://user.qzone.qq.com/45566163",
       },
     ],
     // sitemap
-    sitemap: [
-      {
-        text: "博客",
-        items: [
-          { text: "近期文章", link: "/" },
-          { text: "全部分类", link: "/pages/categories" },
-          { text: "全部标签", link: "/pages/tags" },
-          { text: "文章归档", link: "/pages/archives", newTab: true },
-        ],
-      },
-      {
-        text: "项目",
-        items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
-        ],
-      },
-      {
-        text: "专栏",
-        items: [
-          { text: "技术分享", link: "/pages/categories/技术分享" },
-          { text: "我的项目", link: "/pages/project" },
-          { text: "效率工具", link: "/pages/tools" },
-        ],
-      },
-      {
-        text: "页面",
-        items: [
-          { text: "畅所欲言", link: "/pages/message" },
-          { text: "关于本站", link: "/pages/about" },
-          { text: "隐私政策", link: "/pages/privacy" },
-          { text: "版权协议", link: "/pages/cc" },
-        ],
-      },
-    ],
   },
   // 评论
-  comment: {
-    enable: false,
-    // 评论系统选择
-    // artalk / twikoo
-    type: "artalk",
-    // artalk
-    // https://artalk.js.org/
-    artalk: {
-      site: "",
-      server: "",
-    },
-    // twikoo
-    // https://twikoo.js.org/
-    twikoo: {
-      // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
-      js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.39/twikoo.all.min.js",
-      envId: "",
-      // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
-      region: "ap-shanghai",
-      lang: "zh-CN",
-    },
-  },
   // 侧边栏
   aside: {
     // 站点简介
