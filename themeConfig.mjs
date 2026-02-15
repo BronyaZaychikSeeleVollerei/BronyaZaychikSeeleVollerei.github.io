@@ -154,8 +154,6 @@ export const themeConfig = {
         },
       ],
     },
-      ],
-    },
     {
       name: "项目",
       list: [
